@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:redbusclone/ui/selectBus.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -145,7 +146,9 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      ElevatedButton(onPressed: (){}, child: const Text('Search Buses')),
+      ElevatedButton(onPressed: (){Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context){
+        return const SelectBus();
+      }));}, child: const Text('Search Buses')),
       const ListTile(
         title: Text(
           'Top destinations',
