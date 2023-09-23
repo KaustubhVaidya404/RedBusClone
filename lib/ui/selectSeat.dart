@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:redbusclone/screencontroller/screenController.dart';
 import 'package:redbusclone/ui/bookingPage.dart';
 import 'package:redbusclone/ui/selectBus.dart';
 import 'package:book_my_seat/book_my_seat.dart';
@@ -155,7 +156,7 @@ class _SelectSeatState extends State<SelectSeat> {
             Container(
               padding: const EdgeInsets.all(24.00),
               child: TextButton(onPressed: () {Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context){
-                return const SelectBus();
+                return const ScreenController();
               }));},
                 child: const Text(
                   'Confirm Booking',
