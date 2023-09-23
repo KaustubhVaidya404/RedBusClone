@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:redbusclone/screencontroller/screenController.dart';
+import 'package:redbusclone/ui/home.dart';
+import 'package:redbusclone/ui/selectBus.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.redAccent)
       ),
-      home: const ScreenController(),
+      home: const HomePage(),
     );
   }
 }
