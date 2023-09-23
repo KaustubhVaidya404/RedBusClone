@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.redAccent)
       ),
-      home: const HomePage(),
+      home: const ScreenController(),
     );
   }
 }

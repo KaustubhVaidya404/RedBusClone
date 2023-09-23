@@ -11,7 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  flutter_svg: ^2.0.5
+  flutter_svg: ^1.0.2
+  book_my_seat: ^1.0.1
 
 dev_dependencies:
   flutter_test:
@@ -32,6 +33,10 @@ flutter:
     - assets/help-mail.svg
     - assets/home.svg
     - assets/list-check.svg
+    - assets/seat_disbaled.svg
+    - assets/seat_selected.svg
+    - assets/seat_sold.svg
+    - assets/seat_unselected.svg
 
 flutter_launcher_icons:
   android: "launcher_icon"
